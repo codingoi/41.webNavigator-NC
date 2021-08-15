@@ -1,0 +1,69 @@
+body {
+  background: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+}
+
+.browser-window {
+  width: 100%;
+  height: 100%;
+}
+
+.toolbar {
+  width: 100%;
+  background-color: #fff;
+  padding: 0.8rem 0;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #c5c5c4;
+}
+
+#back,
+#next {
+  width: 10%;
+  display: inline;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 2.5%;
+  color: darkgray;
+}
+
+#back:hover,
+#next:hover {
+  color: black;
+}
+
+.search {
+  display: inline;
+  width: 90%;
+}
+
+input[type='search'] {
+  min-height: 1.87rem;
+  border-radius: 0.85rem;
+  border: 0.0625rem solid #eee;
+  background-color: #fff;
+  color: #000;
+  text-transform: lowercase;
+  display: inline;
+  min-width: 80%;
+  margin-left: 5%;
+  box-shadow: 0.0625rem 0.0625rem 2px grey;
+}
+
+.window {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 10%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
